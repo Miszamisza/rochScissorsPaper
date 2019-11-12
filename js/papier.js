@@ -8,11 +8,11 @@ let picknozyce = document.getElementById(nozyce);
 let playerName;
 
 document.querySelector("#name button")
-    .addEventListener('click', function(){
+    .addEventListener('click', function () {
         let inputEl = document.querySelector("#name input");
         playerName = inputEl.value;
-        let game = document.querySelector(".container-button").style.display = "flex";
-        let name = document.querySelector("#name").style.display = "none";
+        document.querySelector(".container-button").style.display = "flex";
+        document.querySelector("#name").style.display = "none";
 
     });
 
