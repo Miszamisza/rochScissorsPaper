@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 100vh;
+    display: flex;
+    background-color: #dee2e6;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+#papier, #kamien, #nozyce{
+    cursor: pointer;
+    width: 150px;
+}
+
+.button{
+    margin: 2%;
+
+}
+#kamien, #nozyce, #papier{
+    display: flex;
+    flex-direction: column;
+    height: 40px;
+    width: 150px;
+}
+
+#kamienImg, #nozyceImg, #papierImg{
+     margin: 10%;
+}
+div{
+    text-align: center;
+}
