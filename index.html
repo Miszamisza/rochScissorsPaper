@@ -12,17 +12,25 @@
 <body>
 <container>
     <div class="container">
-        <div class="button">
-            <i class="far fa-hand-paper fa-4x" id="papierImg"></i>
-            <button id="papier">Papier</button>
+        <h1 class="masthead">Papier, nożyce, kamień</h1>
+        <div id="name" class="name">
+            <h3>Podaj imię:</h3>
+            <input type="text" name="playerName" placeholder="Wpisz imię">
+            <button type="button" class="btn btn-dark btn" id="submit">Submit</button>
         </div>
-        <div class="button">
-            <i class="far fa-hand-scissors fa-4x fa-rotate-90" id="nozyceImg"></i>
-            <button id="nozyce">Nozyce</button>
-        </div>
-        <div class="button">
-            <i class="far fa-hand-rock fa-4x" id="kamienImg"></i>
-            <button id="kamien">Kamien</button>
+        <div class="container-button" style="display: none;">
+            <div class="button">
+                <i class="far fa-hand-paper fa-4x" id="papierImg"></i>
+                <button  type="button" class="btn btn-dark" id="papier">Papier</button>
+            </div>
+            <div class="button">
+                <i class="far fa-hand-scissors fa-4x fa-rotate-90" id="nozyceImg"></i>
+                <button  type="button" class="btn btn-dark" id="nozyce">Nożyce</button>
+            </div>
+            <div class="button">
+                <i class="far fa-hand-rock fa-4x" id="kamienImg"></i>
+                <button  type="button" class="btn btn-dark" id="kamien">Kamień</button>
+            </div>
         </div>
     </div>
 </container>
